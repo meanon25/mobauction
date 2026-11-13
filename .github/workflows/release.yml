@@ -1,0 +1,29 @@
+name: Release addon
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build addon ZIP
+        shell: bash
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          zip -r "MobAuction-${version}.zip" MobAuction \
+            -x '*/.DS_Store' '*/__pycache__/*'
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          gh release create "$GITHUB_REF_NAME" "MobAuction-${version}.zip" \
+            --title "MobAuction ${version}" --generate-notes

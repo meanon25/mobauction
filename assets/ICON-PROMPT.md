@@ -1,0 +1,7 @@
+# MobAuction icon
+
+Generated using the built-in imagegen tool. Master: `mobauction-tommy-gun.png`. Game texture: `../MobAuction/Media/Icon.tga`, converted to an uncompressed 128 x 128, 32-bit TGA with ffmpeg. The artwork is used in the addon list and window title.
+
+## Final prompt
+
+Use case: stylized-concept. Asset type: square inventory icon for MobAuction, a World of Warcraft auction addon. Primary request: a cool Tommy gun icon that suits WoW's hand-painted fantasy inventory art. Subject: one unmistakable Thompson-inspired tommy gun with a round drum magazine, chunky polished dark steel receiver, warm walnut stock and foregrip, restrained brass/gold fittings; fantasy dwarven craftsmanship. Composition: entire gun centered diagonally from lower-left stock to upper-right short barrel, large readable silhouette occupying most of the square, adequate margin on all sides. Style: richly hand-painted fantasy RPG item icon, exaggerated chunky shapes, crisp silhouette, bold highlights and deep shadows, slightly worn crafted metal, stylized not photorealistic. Background: simple dark charcoal and deep brown vignette with subtle warm amber glow behind the silhouette. Clear at tiny 32px size. Single finished icon filling a square canvas, no text, no letters, no watermark, no interface mockup, no other objects, no ammunition bullets, no muzzle flash, no hands, no ornate frame. Opaque background.

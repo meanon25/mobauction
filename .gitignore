@@ -1,0 +1,19 @@
+*.swp
+*~
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local diagnostics and unrelated machine repairs
+fix-battlenet-proton.sh
+publish-to-github.sh
+recount-fix/
+
+# Generated release archives
+dist/
+*.zip
+
+# Codex/session metadata
+.agents/
+.aws/
+.codex/

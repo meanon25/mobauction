@@ -1,0 +1,22 @@
+## Interface: 16001
+## Title: MobAuction
+## IconTexture: Interface\AddOns\MobAuction\Media\Icon
+## Notes: All-profession craft planning, quantity pricing, recipe alerts and farming recommendations.
+## Author: dazed
+## Version: 0.6.1
+## OptionalDeps: Auctionator, AHledger, QuestieDB, Questie, RecipeRegistry_Forever
+## SavedVariablesPerCharacter: MobAuctionDB
+Professions.lua
+Core.lua
+Skills.lua
+Sources.lua
+FullScan.lua
+Verification.lua
+Depth.lua
+Deals.lua
+Recipes.lua
+CatalogueData.lua
+Catalogue.lua
+Farms.lua
+AuctionLearning.lua
+UI.lua
